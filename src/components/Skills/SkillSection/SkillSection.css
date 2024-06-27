@@ -1,0 +1,81 @@
+.left-block{
+    flex: 1 1 calc(50% - 20px);
+    max-width: 400px;
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.skill-set{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.left-block-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.text-frontend{
+    margin-left: 10px;
+    flex-grow: 1;
+}
+.text-frontend h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(0 0 0 / 80%);
+}
+.text-frontend span{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(7, 7, 7, 0.582);
+}
+.icon-skill{
+    color: #6F5FDB;
+    font-size: 20px;
+    cursor: pointer;
+}
+.accordian{
+    max-height: 30px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+.accordian.open .icon-skill svg{
+    transform: rotate(180deg);
+}
+.accordian-content{
+    display: none;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+}
+.accordian-content.visible{
+    display: block;
+    margin-top: 15px;
+    padding: 0 30px;
+}
+.skill-accordian{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 ;
+}
+.skill-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.skill-percent{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(7, 7, 7, 0.582);
+}
+.content-progress-bar{
+    width: 100%;
+    max-width: 360px;
+    height: 5px;
+    border: none;
+    background: #c0b9ec;
+    border-radius: 8px;
+}
+.progress-bar{
+    height: 5px;
+    background: #6F5FDB;
+    border-radius: 8px;
+}

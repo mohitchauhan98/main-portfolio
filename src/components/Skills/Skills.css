@@ -1,0 +1,22 @@
+.skills-container{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.skills-box{
+    padding: 10px 30px;   
+}
+.s-header{
+    text-align: center;
+}
+.skill-text{
+    font-size: 52px;
+    font-weight: 500;
+    color: rgb(0 0 0 / 80%);
+}
+.skill-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 70px;
+    gap: 20px;
+}
